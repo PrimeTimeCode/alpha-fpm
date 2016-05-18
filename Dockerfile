@@ -1,4 +1,4 @@
-FROM php:7.0.6-fpm
+FROM php:5.6-fpm
 
 RUN groupadd -r alpha \
   && useradd -r -g alpha -G sudo alpha
